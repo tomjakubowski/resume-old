@@ -1,0 +1,77 @@
+$resume-font-size: 13.3px
+
+*
+  margin: 0
+  padding: 0
+
+body
+  font: $resume-font-size "Helvetica Neue", Helvetica, Sans-Serif
+  line-height: $resume-font-size * 1.5
+  background-color: #fff
+
+.clear
+  clear: both
+
+#page-wrap
+  width: 800px
+  margin: 40px auto auto
+
+h1
+  margin: 0 0 $resume-font-size 0
+  padding: 0 0 $resume-font-size 0
+  font-size: $resume-font-size * 2.625
+  font-weight: bold
+  letter-spacing: -2px
+  border-bottom: 1px solid #999
+
+h2
+  font-size: ($resume-font-size * 1.25)
+  margin: 0 0 ($resume-font-size * .375) 0
+  position: relative
+  span
+    position: absolute
+    bottom: 0
+    right: 0
+    font-style: italic
+    font-family: Georgia, Serif
+    font-size: $resume-font-size
+    color: #999
+    font-weight: normal
+
+p
+  margin: 0 0 $resume-font-size 0
+
+a
+  text-decoration: none
+  border-bottom: 1px dotted #999
+  color: #999
+
+ul
+  margin: 0 0 ($resume-font-size * 2) ($resume-font-size * 1.0625)
+
+#objective
+  width: 600px
+  float: left
+  p
+    font-family: Georgia, Serif
+    font-style: italic
+    color: #666
+
+dt
+  font-style: italic
+  font-weight: bold
+  font-size: ($resume-font-size * 1.125)
+  text-align: right
+  padding: 0 ($resume-font-size * 1.625) 0 0
+  width: 150px
+  float: left
+  height: $resume-font-size * 6.25
+  border-right: 1px solid #999
+
+dd
+  width: 600px
+  float: right
+  &.clear
+    float: none
+    margin: 0
+    height: ($resume-font-size * .9375)
