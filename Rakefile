@@ -1,6 +1,10 @@
 task :default => [:pdf]
 
 namespace :styles do
+  task :build do
+    sh "sass resume.sass resume.css"
+  end
+  
   task :watch do
     sh "sass --watch resume.sass:resume.css"
   end
