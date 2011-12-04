@@ -1,5 +1,10 @@
 # Tom Jakubowski's Resume
 
+Before doing anything, install the bundle:
+
+    gem install bundler
+    bundle install
+
 I'm using the system Ruby interpreter that comes with Mac OS X because
 [wkpdf](http://plessl.github.com/wkpdf/) relies on RubyCocoa. To build
 a pdf:
