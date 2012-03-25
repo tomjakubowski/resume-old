@@ -3,8 +3,8 @@
   padding: 0; }
 
 body {
-  font: 13.3px "Helvetica Neue", Helvetica, Sans-Serif;
-  line-height: 19.95px;
+  font: 15px "Helvetica Neue", Helvetica, Sans-Serif;
+  line-height: 1.3;
   background-color: white; }
 
 .clear {
@@ -15,16 +15,18 @@ body {
   margin: 40px auto auto; }
 
 h1 {
-  margin: 0 0 13.3px 0;
-  padding: 0 0 13.3px 0;
-  font-size: 34.913px;
+  background: url(assets/logo.png) left center no-repeat;
+  margin: 0 0 15px 0;
+  padding: 0 0 0 64px;
+  font-size: 39.375px;
   font-weight: bold;
   letter-spacing: -2px;
+  line-height: 1.8;
   border-bottom: 1px solid #999999; }
 
 h2 {
-  font-size: 16.625px;
-  margin: 0 0 4.988px 0;
+  font-size: 18.75px;
+  margin: 0 0 5.625px 0;
   position: relative; }
   h2 span {
     position: absolute;
@@ -32,12 +34,12 @@ h2 {
     right: 0;
     font-style: italic;
     font-family: Georgia, Serif;
-    font-size: 13.3px;
+    font-size: 15px;
     color: #999999;
     font-weight: normal; }
 
 p {
-  margin: 0 0 13.3px 0; }
+  margin: 0 0 15px 0; }
 
 a {
   text-decoration: none;
@@ -45,7 +47,7 @@ a {
   color: #999999; }
 
 ul {
-  margin: 0 0 26.6px 14.131px; }
+  margin: 0 0 30px 15.938px; }
 
 #objective {
   width: 600px;
@@ -58,12 +60,12 @@ ul {
 dt {
   font-style: italic;
   font-weight: bold;
-  font-size: 14.963px;
+  font-size: 16.875px;
   text-align: right;
-  padding: 0 21.613px 0 0;
+  padding: 0 24.375px 0 0;
   width: 150px;
   float: left;
-  height: 83.125px;
+  height: 93.75px;
   border-right: 1px solid #999999; }
 
 dd {
@@ -72,4 +74,4 @@ dd {
   dd.clear {
     float: none;
     margin: 0;
-    height: 12.469px; }
+    height: 14.063px; }

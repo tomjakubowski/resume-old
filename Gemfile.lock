@@ -1,14 +1,22 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    aws-s3 (0.6.2)
+      builder
+      mime-types
+      xml-simple
+    builder (3.0.0)
+    mime-types (1.17.2)
     sass (3.1.11)
     trollop (1.16.2)
     wkpdf (0.6.0)
       trollop (>= 1.16.2)
+    xml-simple (1.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-s3
   sass
   wkpdf
